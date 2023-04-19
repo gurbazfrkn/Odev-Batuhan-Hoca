@@ -3,6 +3,7 @@
 ### No:2013513029
 
 `Hocam merhabalar, geçmiş olsun . Umarım ameliyat sonrası sağlığınız iyidir. Çok geçmiş olsun.`
+
 `Kısaca yaptıklarımdan bahsetmek istiyorum .`
 ### veri seti oluşturma 
 df1 ve df2 oluşturuldu.
