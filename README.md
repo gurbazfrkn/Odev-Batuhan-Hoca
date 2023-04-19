@@ -1,6 +1,6 @@
 # Odev-Batuhan-Hoca
-## İsim:Furkan Sinan Gürbaz
-### No:2013513029
+##  İsim:Furkan Sinan Gürbaz
+### Öğrenci No:2013513029
 
 `Hocam merhabalar, geçmiş olsun . Umarım ameliyat sonrası sağlığınız iyidir. Çok geçmiş olsun.`
 
@@ -15,7 +15,7 @@ df1 ve df2 verileri bütünleştirilerek df3 adında yeni dataFrame oluşturuldu
 df3 dataFrame üzerinden Mat_Net sütunu silindi.
 ### Normalize İşlemleri
 df3 üzerinde bulunan sayısal veriler normalize işlemine alındı.
-
+- Normalize formülü
 $$ \frac{X- X{min}}{X{max}-X{min}} $$ 
 
 
