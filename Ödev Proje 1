@@ -1,0 +1,12 @@
+import pandas as pd
+df=pd.DataFrame({"isim":["ali","ahmet","veli"],
+                 "not":[20,30,40],
+                 "okul":["cukurova","itü","bogazici"],
+                 "kardes sayisi":[1,7,3]  ,
+                 "yaş":[12,13,14]   ,
+                 "ders sayisi":[3,4,5] ,
+                 "dershane":["yok","var","yok"] ,
+                 "cinsiyet":["erkek","erkek","erkek"] ,
+                 "mat netleri":[7,6,5]                            })
+
+#print(df)      
