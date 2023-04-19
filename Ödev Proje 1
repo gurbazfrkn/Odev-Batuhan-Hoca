@@ -1,5 +1,5 @@
 import pandas as pd
-df=pd.DataFrame({"isim":["ali","ahmet","veli"],
+df1=pd.DataFrame({"isim":["ali","ahmet","veli"],
                  "not":[20,30,40],
                  "okul":["cukurova","itü","bogazici"],
                  "kardes sayisi":[1,7,3]  ,
@@ -11,16 +11,15 @@ df=pd.DataFrame({"isim":["ali","ahmet","veli"],
 
 #print(df)      
 
-
 ### veri temizleme:
 
-yeni_ad=df["isim"].str.capitalize()
-okul_adlari=df["okul"].str.capitalize()
+yeni_ad=df1["isim"].str.capitalize()
+okul_adlari=df1["okul"].str.capitalize()
 #print(ad)
-df["isim"]=yeni_ad            #İsim baş harfleri büyütüldü.
-df["okul"]=okul_adlari   #okul baş harfleri büyütüldü.
+df1["isim"]=yeni_ad            #İsim baş harfleri büyütüldü.
+df1["okul"]=okul_adlari   #okul baş harfleri büyütüldü.
 #print(df)
-df.columns=["İsim","GNO","Okul","Kardes_sayisi","Yaş","Ders_Sayisi","Dershane_Durumu","Cinsiyet","Mat_Net"]    #sütun isimleri düzenlendi.
+df1.columns=["İsim","GNO","Okul","Kardes_sayisi","Yaş","Ders_Sayisi","Dershane_Durumu","Cinsiyet","Mat_Net"]    #sütun isimleri düzenlendi.
 #print(df)
 
 df2=pd.DataFrame({"isim":["ayse","alara","vedat","ali","adem","çinar","belinay"],
@@ -37,3 +36,29 @@ df2=pd.DataFrame({"isim":["ayse","alara","vedat","ali","adem","çinar","belinay"
 df2.index=[3,4,5,6,7,8,9]
 df2.columns=["İsim","GNO","Okul","Kardes_sayisi","Yaş","Ders_Sayisi","Dershane_Durumu","Cinsiyet","Mat_Net"]
 #print(df2)
+
+### veri bütünleştirme:
+
+df3=pd.concat([df1,df2])                        #>>> df1 ile df2 birleştirildi.
+print(df3)
+
+###Veri indirgeme:
+
+df3.drop(columns=["Mat_Net"],inplace=True)     #>>> sütun indirgendi.
+print(df3)
+
+###Normalize işlemleri :                       #>> sayısal veriler normalize işlemine alındı.
+
+normalize_GNO=(df3.GNO-df3.GNO.min())/(df3.GNO.max()-df3.GNO.min())
+print(normalize_GNO)
+
+normalize_kardes=(df3.Kardes_sayisi-df3.Kardes_sayisi.min())/(df3.Kardes_sayisi.max()-df3.Kardes_sayisi.min())
+print(normalize_kardes)
+
+normalize_yas=(df3.Yaş-df3.Yaş.min())/(df3.Yaş.max()-df3.Yaş.min())
+print(normalize_yas)
+
+normalize_derssayisi=(df3.Ders_Sayisi-df3.Ders_Sayisi.min())/(df3.Ders_Sayisi.max()-df3.Ders_Sayisi.min())
+print(normalize_derssayisi)
+
+
