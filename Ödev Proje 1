@@ -61,4 +61,44 @@ print(normalize_yas)
 normalize_derssayisi=(df3.Ders_Sayisi-df3.Ders_Sayisi.min())/(df3.Ders_Sayisi.max()-df3.Ders_Sayisi.min())
 print(normalize_derssayisi)
 
+###  Öznitelik nedir?
+#  Bir makine öğrenimi problemindeki girdilere öznitelik denir.
+#  Öznitelik, makine öğrenmesi ve örüntü tanıma alanlarında, gözlemlenen bir olgunun ölçülebilir bir niteliğidir.
+#  Anlaşılır, ayırt edici ve bağımsız özellikler seçmek etkili örüntü tanıma, sınıflandırma ve regresyon algoritmaları için kritik bir adımdır.
+
+###  Veri seti satırlarında ve sütunlarında ne bulunur?
+#  Veri seti; satırlarında gözlem birimleri, sütunlarında ise değişkenler bulunan iki boyutlu bir matristir.
+
+###  Nümerik (Nicel ) veri?
+#  Ölçülebilen, üzerinde aritmetik işlemler yapılabilen veri tipidir. 
+#  Boy, kilo, hizmet süreleri, hava sıcaklığı, kandaki bir bileşenin miktarı… Nicel veriler kesikli ve sürekli olmak üzere iki şekilde incelenmektedir.
+
+###  Kesikli Veri?
+#  Sonlu veya sayılabilir bir şekilde sonsuz değerler dizisine sahiptir. 
+#  Gözlemlere ait özelliklerin tam sayılarla ifade edildiği veri kümeleridir. 0, 1, 2, 3 vb. tam sayı değerler gibi.
+
+###  Sürekli Veri?
+#  Sonsuz sayıda değer alabilen ve kesirli değerleri de içeren veri setleridir.
+#  7.00, 99.846, 200.1365 vb. değerler sürekli verilere örnek verilebilir
+
+###  Aralıklı Veri?
+#  Hem sırayı hem de farkı gösterir. Eşit aralıkların eşit mesafeleri temsil ettiği bir ölçek türüdür. 
+#  Sayılar arasında oransal bir ilişki yoktur.Sıcaklık bunun için iyi bir örnektir.
+#  15°C ile 20°C arasındaki fark, 45 °C ile 50 °C arasındaki farkla aynıdır.
+ 
+###  Oranlı(Ratio) Veri?
+#  Sırayı, mesafeyi ve anlamlı bir mutlak sıfır değerini gösterir. 
+#  Bir oran değişkeni 0 değerine sahip olduğunda, değişken tarafından ölçülen miktarın hiçbirinin mevcut olmadığını anlarız.
+
+###  Sıralanabilen(Ordinal) Veri?
+#  Sıralayıcı nitel veriler aralarında anlamlı bir sıra veya derecelendirmeye sahip değerler içerir. 
+#  Değerleri arasında sıralı bir ilişki bulunur.
+#  Akademik unvan, rütbe, öğrenim durumu,sınav notları gibi
+
+###  Sınıflanabilen(Nominal) Veri?
+#  Bir nominal niteliği ; gözlemlerin adları, yada sembolleri olarak düşünebiliriz. 
+#  Bu değerler bir kategoriyi veya durumu temsil eder ve bu nedenle kategorik özellik olarak adlandırılırlar.
+#  Sınıfların aralarında hiyerarşik bir yapı yoktur. 
+#  Araba markası, renk,meslek,il,cinsiyet gibi…
+
 
