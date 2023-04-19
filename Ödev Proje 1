@@ -16,8 +16,8 @@ df1=pd.DataFrame({"isim":["ali","ahmet","veli"],
 yeni_ad=df1["isim"].str.capitalize()
 okul_adlari=df1["okul"].str.capitalize()
 #print(ad)
-df1["isim"]=yeni_ad            #İsim baş harfleri büyütüldü.
-df1["okul"]=okul_adlari   #okul baş harfleri büyütüldü.
+df1["isim"]=yeni_ad                           #>>>İsim baş harfleri büyütüldü.
+df1["okul"]=okul_adlari                       #>>>okul baş harfleri büyütüldü.
 #print(df)
 df1.columns=["İsim","GNO","Okul","Kardes_sayisi","Yaş","Ders_Sayisi","Dershane_Durumu","Cinsiyet","Mat_Net"]    #sütun isimleri düzenlendi.
 #print(df)
@@ -39,15 +39,15 @@ df2.columns=["İsim","GNO","Okul","Kardes_sayisi","Yaş","Ders_Sayisi","Dershane
 
 ### veri bütünleştirme:
 
-df3=pd.concat([df1,df2])                        #>>> df1 ile df2 birleştirildi.
+df3=pd.concat([df1,df2])                      #>>> df1 ile df2 birleştirildi.
 print(df3)
 
 ###Veri indirgeme:
 
-df3.drop(columns=["Mat_Net"],inplace=True)     #>>> sütun indirgendi.
+df3.drop(columns=["Mat_Net"],inplace=True)    #>>> sütun indirgendi.
 print(df3)
 
-###Normalize işlemleri :                       #>> sayısal veriler normalize işlemine alındı.
+###Normalize işlemleri :                      #>> sayısal veriler normalize işlemine alındı.
 
 normalize_GNO=(df3.GNO-df3.GNO.min())/(df3.GNO.max()-df3.GNO.min())
 print(normalize_GNO)
