@@ -16,6 +16,6 @@ df3 dataFrame üzerinden Mat_Net sütunu silindi.
 ### Normalize İşlemleri
 df3 üzerinde bulunan sayısal veriler normalize işlemine alındı.
 
-$ \frac{X- X(min)}{X(max)-X(min)} $ 
+$$ \frac{X- X(min)}{X(max)-X(min)} $$ 
 
 
