@@ -18,5 +18,6 @@ df3 üzerinde bulunan sayısal veriler normalize işlemine alındı.
 - Normalize formülü
  
 $$ \frac{X- X{min}}{X{max}-X{min}} $$ 
+.
 
 
