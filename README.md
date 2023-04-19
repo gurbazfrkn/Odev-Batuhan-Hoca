@@ -13,7 +13,7 @@ df1 üzerinde veri temizleme işlemine örnek olarak isim ve okul baş harfleri 
 df1 ve df2 verileri bütünleştirilerek df3 adında yeni dataFrame oluşturuldu.
 ### veri indirgeme 
 df3 dataFrame üzerinden Mat_Net sütunu silindi.
-### Normalize İşlemleri
+### normalize İşlemleri
 df3 üzerinde bulunan sayısal veriler normalize işlemine alındı.
 - Normalize formülü
  
