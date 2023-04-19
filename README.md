@@ -1,5 +1,6 @@
 # Odev-Batuhan-Hoca
-### İsmim:Furkan Sinan Gürbaz
+### İsim:Furkan Sinan Gürbaz
+### No:2013513028
 Yüksek lisans ödevi
 jsjsjjsjsjsjsj
 skjskkaklnlcvlk
