@@ -20,4 +20,8 @@ df3 üzerinde bulunan sayısal veriler normalize işlemine alındı.
 $$ \frac{X- X{min}}{X{max}-X{min}} $$ 
 
 
+### Sözel sorular
+
+Sözel sorular açıklamaları ile birlikte cevaplandı.
+
 
