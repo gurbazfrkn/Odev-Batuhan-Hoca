@@ -1,6 +1,6 @@
 #   Odev-Teslimi-Proje 1
 ##  İsim: Furkan Sinan Gürbaz
-### Öğrenci No: 2013513029
+### Öğrenci No: 2212705105
 
 `Hocam merhabalar, geçmiş olsun . Umarım ameliyat sonrası sağlığınız iyidir. Çok geçmiş olsun.`
 
